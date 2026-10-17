@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Searchable official rules for 1864: Forty-Niner, Version 1.6"
+    />
+    <title>1864: Forty-Niner | Rules</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button id="menu" class="menu" aria-label="Toggle navigation">☰</button
+      ><a class="brand" href="#introduction"
+        ><span class="brand-mark">1864</span
+        ><span>FORTY-NINER <small>MAGAZINE GAME RULES · V1.6</small></span></a
+      >
+      <div class="header-tools">
+        <span id="count"></span
+        ><button id="print" class="quiet">⎙ Print</button>
+      </div>
+    </header>
+    <div class="shell">
+      <aside id="sidebar">
+        <label class="search-label" for="search">SEARCH THE RULEBOOK</label
+        ><input
+          id="search"
+          type="search"
+          placeholder="Search the rules"
+          autocomplete="off"
+        /><button id="clear" class="clear">Clear search ×</button>
+        <nav id="nav" aria-label="Rule sections"></nav>
+        <div class="aside-footer">
+          TraXX · MAINLINE Magazine<br />Stand Alone Version 1.6
+        </div>
+      </aside>
+      <main id="main">
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">THE TRANSCONTINENTAL RAILROAD</span>
+            <h1>1864:<br /><em>Forty-Niner</em></h1>
+            <p>Railroading in the Western United States</p>
+            <div class="route">
+              CHICAGO <span>—</span> OMAHA <span>—</span> CHEYENNE
+              <span>—</span> SALT LAKE <span>—</span> SAN FRANCISCO
+            </div>
+            <button id="start" class="primary">Explore the rules ↗</button>
+          </div>
+          <img
+            src="assets/illustration-1.png"
+            alt="1864 Forty-Niner original cover illustration"
+          />
+        </section>
+        <div class="intro-strip">
+          <span>MAGAZINE GAME RULEs</span><span>VERSION 1.6</span
+          ><span>SEARCHABLE REFERENCE</span>
+        </div>
+        <section class="quick">
+          <h2>At a glance</h2>
+          <div class="quick-grid">
+            <div><b>2–6</b><span>Players</span></div>
+            <div><b>16</b><span>Minor companies</span></div>
+            <div><b>$80</b><span>UP initial share price</span></div>
+            <div><b>Phase 6</b><span>Abilities expire</span></div>
+          </div>
+          <p class="source-note">
+            These rules supplement
+            <i>1861: Railways of the Russian Empire</i> and incorporate
+            specified rules from <i>1867: Railways of Canada</i>. Consult 1861
+            for rules not covered here.
+          </p>
+        </section>
+        <div id="results-status" aria-live="polite"></div>
+        <div id="content"></div>
+        <footer>
+          1864: Forty-Niner · A magazine game from MAINLINE Magazine by TraXX ·
+          Version 1.6
+        </footer>
+      </main>
+    </div>
+    <script src="rules-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
