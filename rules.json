@@ -130,6 +130,39 @@
     ]
   },
   {
+    "title": "Phase Chart",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Phase 2 – Train Limit: 2. Yellow Minor Companies are available. Trains may be bought between companies (minimum price: $1 per train). UP Shares only available during Regionalization. "
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 3 – Train Limit: 4/2. Begin Merger Rounds. Green Minor Companies are available. May purchase over 60% ownership (may never own more than 60% of Union Pacific)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 4 – Train Limit: 3/1. 2-trains rust. UP Begins operations. Regionalization Event. Major Companies may be started via President’s Certificate (in an unreserved and unconnected location if possible)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 5 – Train Limit: 3/1. Minors can no longer be started; home stations of non-started Minor Companies are no longer reserved."
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 6 – Train Limit: 2/1. 3-trains rust. Regionalization Event. Minor Company Abilities are removed from the game. Cannot purchase over 60% ownership. UP shares available for purchase."
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 7 – Train Limit: 2/1. "
+      },
+      {
+        "type": "paragraph",
+        "text": "Phase 8 – Train Limit: 2. 4-trains rust. Regionalization Event. Game End triggered (finish current set, final SR, three final ORs). All remaining Minors are Regionalized."
+      }
+    ]
+  },
+  {
     "title": "Mergers",
     "blocks": [
       {
